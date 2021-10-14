@@ -5,7 +5,7 @@ public class InputValueGrade {
     int angka;
     String pesan;
 
-    Scanner input = new Scanner(System.in);;
+    Scanner input = new Scanner(System.in);
 
     System.out.println("*-*-*-*-*-*-*-*-*-*-*-**-*-*-*-*-*-*-*-*-");
     System.out.println("Rentang nilai " + "\n");
@@ -15,7 +15,7 @@ public class InputValueGrade {
                         "D" + " = " + "21 - 40" + "\n" +
                         "E" + " = " + "0 - 20" + "\n");
     
-    System.out.println("Hay Reza, Silahkan input nilai kamu : ");
+    System.out.print("Hay Reza, Silahkan input nilai kamu : ");
     angka = input.nextInt();
     
     // Cek kondisi yang ditetapkan
